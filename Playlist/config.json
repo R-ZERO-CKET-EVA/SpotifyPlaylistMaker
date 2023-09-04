@@ -1,0 +1,6 @@
+{
+  "client_secret": "secret",
+  "client_id": "id",
+  "playlist_title": "Playlist Title",
+  "redirect_uri": "http://someredirecturi.org"
+}
