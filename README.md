@@ -2,14 +2,14 @@ Basic Instructions:
 
 # If you want to scrape band setlists first:
 Go to setlist.fm and visit the main page for each band you want to get the setlists from
-Paste each band's page URL onto its own line in band_pages.txt
+Paste each band's page URL onto its own line in Scraper/band_pages.txt
 Run Scraper/scraper_main.py (It will take a while, close to 10 minutes per band -- This is so we don't flood Setlist.fm with requests)
-If successful, the script will write the output to output.json.
+If successful, the script will write the output to Scraper/output.json.
 
 The output json will have the bands in the order they are listed in band_pages.txt with the inner dictionaries being each song sorted by the number of times it was found in a concert setlist.
 
 # If you already have band data or after you have scraped Setlist.fm
-Load the band data into band_data.json -- The data must be in the follow format:
+Load the band data into band_data.json -- The data must be in the following format:
 
 {
 BandOne: {
