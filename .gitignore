@@ -1,0 +1,7 @@
+/setlists/Playlist/config.json
+/YTMusic/oauth.json
+/YTMusic/to_spotify/config.json
+/YTMusic/outputs
+/YTMusic/to_spotify/__pycache__
+/YTMusic/to_spotify/.cache
+/YTMusic/to_spotify/error.log
