@@ -5,3 +5,5 @@
 /YTMusic/to_spotify/__pycache__
 /YTMusic/to_spotify/.cache
 /YTMusic/to_spotify/error.log
+/YTMusic/secrets.json
+/YTMusic/old_oauth.json
