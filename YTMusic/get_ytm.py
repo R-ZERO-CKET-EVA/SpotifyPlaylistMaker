@@ -1,6 +1,7 @@
 import json
 import os
 from ytmusicapi import YTMusic
+import requests
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -105,7 +106,7 @@ def main():
                     for title in skipped:
                         file.write(f"{title}\n")
 
-                print(f"\nContents saved to {filename} and songs with no artist data saved to {skipped_filename}")
+                print(f"\nContents saved to {filename} and skipped songs saved to {skipped_filename}")
             else:
                 print(f"\nContents saved to {filename}")
         else:
